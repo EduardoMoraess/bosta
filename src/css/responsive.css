@@ -1,0 +1,38 @@
+@media (max-width: 750px) {
+    header{
+        background-color: seagreen;
+        width: 100%;
+    }
+    .logo{
+        display: none;
+    }
+    a li{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        font-size: 12px;
+    }
+}
+@media (max-width: 500) {
+    header{
+        background-color: seagreen;
+        width: 100%;
+    }
+    .logo{
+        display: none;
+    }
+    a li{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        font-size: 0.5rem;
+    }
+}
+
+@media (max-width: 400) {
+    .menu{
+        font-size: 12px;
+        margin: auto;
+        margin-right: 15px;
+    }
+}
